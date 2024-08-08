@@ -1,0 +1,32 @@
+class employee                                                                        
+{
+	public static void employ(String name, String post, int Salary, String joingdate){
+		System.out.println("-------------------------------------");
+		System.out.println("name :               | "+name+"     " );
+		System.out.println("Position of emplyee :| "+ post+"    ");
+		System.out.println("Joining Date :       | "+joingdate+"");
+		System.out.println("salary is :          | "+Salary+"   ");
+		System.out.println("-------------------------------------");
+	}
+}
+
+
+
+
+class company 
+{
+	public static void main(String[] args) 
+	{
+		employee.employ("ganesh","HR",60000, "1 aguest 2024");
+		employee.employ("Rahul","Devloper",50000, "2 Aguest");
+		employee.employ("jay","Devlopar",50000, "8 Aguest");
+		employee.employ("magesh","Devlopar",50000, "16 Aguest");
+		employee.employ("vivek","devloper",50000, "18 Aguest");
+		employee.employ("diya","tester",36000, "3 Aguest");
+		employee.employ("raju","tester",36000, "4 Aguest");
+		employee.employ("Abhishek","Designer",120000, "3 september 2024");
+		employee.employ("sejal","Designer",123000, "1 september 2021");
+		employee.employ("harry bhai","feedback sender",36000, "frelancer");
+		System.out.println("complete  !!");
+	}
+}
